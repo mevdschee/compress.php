@@ -14,5 +14,4 @@ As you can see compressing 'api.php' reduces it's file size to 16% of the origin
     $ php compress.php api.php 
     uncompressed 'api.php' from 41 to 259 kbyte (624%)
 
-The script will detect being ran on an already compressed file (it looks for the 'halt_compiler' statement) and will automatically switch into uncompression mode. Since the compression is lossless you will end up with the exact same file you started with.
-
+The script will detect operating on an already compressed file (it looks for the 'halt_compiler' statement) and will automatically switch to uncompression mode. Since the compression is lossless you will end up with the exact same file you started with.
